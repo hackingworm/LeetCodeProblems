@@ -9,7 +9,7 @@ class Solution:
     def minOperations(self, nums: List[int]) -> int:
         ops = len(nums) - 1
         sortedUnique = self.getSortedUnique(nums)
-        print(sortedUnique)
+        #print(sortedUnique)
         for l in range(len(sortedUnique)):
             b = l
             r = len(sortedUnique)
@@ -27,7 +27,7 @@ class Solution:
             #r = l
             #while r < len(sortedUnique) and sortedUnique[r] < sortedUnique[l] + len(nums):
             #    r += 1
-            print(sortedUnique[l], l, r, len(nums) - (r - l))
+            #print(sortedUnique[l], l, r, len(nums) - (r - l))
             ops = min(len(nums) - (r - l), ops)
 
         return ops
