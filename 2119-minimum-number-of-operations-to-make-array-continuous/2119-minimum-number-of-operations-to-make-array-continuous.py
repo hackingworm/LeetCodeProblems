@@ -1,30 +1,14 @@
-class Solution:
-    def getSortedUnique(self, nums: List[int]) -> List[int]:
-        unique = set()
-        for num in nums:
-            if num not in unique:
-                unique.add(num)
-        return sorted(list(unique))
-    
+class Solution:  
     def minOperations(self, nums: List[int]) -> int:
-        ops = len(nums) - 1
-        sortedUnique = self.getSortedUnique(nums)
-        print(sortedUnique)
-        for l in range(len(sortedUnique)):
-            b = l
-            r = len(sortedUnique)
-            while b < r - 1:
-                m = (b + r) >> 1
-                if (sortedUnique[m] < sortedUnique[l] + len(nums)):
-                    b = m
-                else:
-                    r = m
+        n = len(nums)
+        ops = n - 1
+        sortedNums = sorted(set(nums))
+        j = 1
 
-            #r = l
-            #while r < len(sortedUnique) and sortedUnique[r] < sortedUnique[l] + len(nums):
-            #    r += 1
+        for i in range(len(sortedNums)):
+            while len(sortedNums) > j and n + sortedNums[i] > sortedNums[j]:
+                j += 1
 
-            print(sortedUnique[l], l, r, len(nums) - (r - l))
-            ops = min(len(nums) - (r - l), ops)
+            ops = min(ops, n - (j - i))
 
-        return ops
+        return ops 
