@@ -9,7 +9,7 @@ class Solution:
         while 1 < n:
             m = n
             n >>= 2
-            print(m, n)
+            #print(m, n)
             if m > n << 2:
                 return False
 
