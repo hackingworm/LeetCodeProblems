@@ -6,27 +6,30 @@ class TreeNode:
         self.right = right
 class Solution:
     def largestValues(self, root: Optional[TreeNode]) -> List[int]:
-        def largestValue(start: int):
-            largest = nodes[start].val
-            for i in nodes[start + 1:]:
+        def largestValuesRecur(nodes: List[TreeNode]) -> List[int]:
+            if 0 == len(nodes):
+                return []
+
+            newNodes = []
+            for i in nodes:
+                if None != i.left:
+                    newNodes.append(i.left)
+                if None != i.right:
+                    newNodes.append(i.right)
+            
+            largests = largestValuesRecur(newNodes)
+
+            largest = nodes[0].val
+            for i in nodes[1:]:
                 largest = max(largest, i.val)
+
             largests.append(largest)
 
-            newStart = len(nodes)
-            for i in nodes[start:]:
-                if None != i.left:
-                    nodes.append(i.left)
-                if None != i.right:
-                    nodes.append(i.right)
-            
-            if len(nodes) > newStart:
-                largestValue(newStart)
+            return largests
 
-        largests = []
-        nodes = []
+        if None == root:
+            return []
 
-        if None != root:
-            nodes.append(root)
-            largestValue(0)
-
+        largests = largestValuesRecur([root])
+        largests.reverse()
         return largests
