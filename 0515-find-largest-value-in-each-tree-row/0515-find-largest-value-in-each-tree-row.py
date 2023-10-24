@@ -10,6 +10,10 @@ class Solution:
             if 0 == len(nodes):
                 return []
 
+            largest = nodes[0].val
+            for i in nodes[1:]:
+                largest = max(largest, i.val)
+
             newNodes = []
             for i in nodes:
                 if None != i.left:
@@ -19,9 +23,9 @@ class Solution:
             
             largests = largestValuesRecur(newNodes)
 
-            largest = nodes[0].val
-            for i in nodes[1:]:
-                largest = max(largest, i.val)
+            #largest = nodes[0].val
+            #for i in nodes[1:]:
+            #    largest = max(largest, i.val)
 
             largests.append(largest)
 
