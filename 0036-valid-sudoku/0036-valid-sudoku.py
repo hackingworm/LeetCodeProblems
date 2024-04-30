@@ -32,7 +32,7 @@ class Solution:
                         num = board[r][c]
                         if "." == num:
                             continue
-                        if num in allowed or num not in digits:
+                        if num in allowed and num not in digits:
                             digits.add(num)
                         else:
                             return False
