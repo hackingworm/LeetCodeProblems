@@ -8,18 +8,6 @@ class Solution {
                     break;
                 }
 
-                /*
-                int k;
-                for (k = i; k < j; k++) {
-                    if (s.charAt(k) == s.charAt(j))
-                        break;
-                }
-
-                if (j > k) {
-                    break;
-                }
-                */
-
                 length++;
             }
 
