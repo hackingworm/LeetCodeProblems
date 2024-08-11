@@ -16,8 +16,6 @@ class Solution {
             }
         }
 
-        System.out.println(middle + ", " + i + ", " + j + ", " + median);
-
         if (middle < (nums1.length + nums2.length + 2) >>1) {
             int peer;
             if (nums1.length == i) {
@@ -29,8 +27,6 @@ class Solution {
             } else {
                 peer = nums1[i];
             }
-
-            System.out.println(((nums1.length + nums2.length + 2) >> 1) + ", " + peer);
 
             return (double)(median + peer) / 2;
         } else {
