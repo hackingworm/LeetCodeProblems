@@ -12,7 +12,6 @@ class Solution {
                     }
                 }
 
-                // System.out.println("i: " + i + ", j: " + j + ", backward: " + backward + ", forward: " + forward);
                 backward++;
                 if (maxLength < forward - backward) {
                     maxLength = forward - backward;
