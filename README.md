@@ -8,12 +8,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/hackingworm/LeetCodeProblems/tree/master/0004-median-of-two-sorted-arrays) |
+| [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
 | ------- |
@@ -31,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/hackingworm/LeetCodeProblems/tree/master/0004-median-of-two-sorted-arrays) |
+| [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 ## Two Pointers
 |  |
@@ -51,13 +54,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
