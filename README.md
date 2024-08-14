@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/hackingworm/LeetCodeProblems/tree/master/0004-median-of-two-sorted-arrays) |
+| [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 ## Hash Table
 |  |
 | ------- |
@@ -30,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/hackingworm/LeetCodeProblems/tree/master/0004-median-of-two-sorted-arrays) |
+| [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 ## Two Pointers
 |  |
 | ------- |
@@ -38,4 +40,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0005-longest-palindromic-substring) |
+## Math
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
+## Sorting
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
