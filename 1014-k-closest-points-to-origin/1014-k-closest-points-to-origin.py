@@ -8,9 +8,7 @@ class Solution:
                euDists[euDist] = []
             euDists[euDist].append(point)
         
-        #print(euDists)
         sortedEuDists = dict(sorted(euDists.items(), key = lambda item: item[0]))
-        #print(sortedEuDists)
 
         results = [[0, 0]] * k
         count = 0
