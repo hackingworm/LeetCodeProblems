@@ -28,10 +28,10 @@ class Solution {
                 freqs.put(i, value + 1);
             }
         }
-        System.out.println(freqs);
+        // System.out.println(freqs);
 
         Map<Integer, Integer> linked = sortByValue(freqs);
-        System.out.println(linked);
+        // System.out.println(linked);
 
         int[] results = new int[k];
         int i = 0;
