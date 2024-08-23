@@ -9,7 +9,6 @@ class Solution {
                 freqs.put(i, value + 1);
             }
         }
-        // System.out.println(freqs);
 
         List<Map.Entry<Integer, Integer>> list = new LinkedList<Map.Entry<Integer, Integer>>(freqs.entrySet());
         Collections.sort(list, new Comparator<Map.Entry<Integer, Integer>>() {
