@@ -21,7 +21,6 @@ class Solution {
                 cloned[s2.charAt(j) - 'a']--;
             }
 
-            // System.out.println(i + " " + j);
             if (i + s1.length() == j) {
                 return true;
             }
