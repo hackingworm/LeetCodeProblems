@@ -12,7 +12,7 @@ class Solution:
             if 3 > valDict[num] or 4 > valDict[num] and 0 == num:
                 newNums.append(num) 
 
-        print(newNums, valDict)
+        #print(newNums, valDict)
 
         triples = set()
         for i in range(len(newNums)):
