@@ -1,5 +1,6 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
+        #'''
         newNums = []
         valDict = {}
         for num in nums:
@@ -11,7 +12,7 @@ class Solution:
             if 3 > valDict[num] or 4 > valDict[num] and 0 == num:
                 newNums.append(num) 
 
-        #print(newNums, valDict)
+        print(newNums, valDict)
 
         triples = set()
         for i in range(len(newNums)):
@@ -28,6 +29,7 @@ class Solution:
             valDict[newNums[i]] += 1
 
         return list(triples)
+        #'''
 
 
         '''
