@@ -1,27 +1,23 @@
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, origNums: List[int]) -> List[List[int]]:
+        nums = []
         valDict = {}
-        i = 0
-        while len(nums) > i:
-            num = nums[i]
+        for num in origNums:
             if num in valDict:
-                if 0 == num and 3 == valDict[num] or 0 != num and 2 == valDict[num]:
-                    nums.remove(num)
-                    continue
-                else:
-                    valDict[num] += 1
+                valDict[num] += 1
             else:
                 valDict[num] = 1
 
-            i += 1
+            if 3 > valDict[num] or 4 > valDict[num] and 0 == num:
+                nums.append(num) 
 
-        #print(nums, valDict)
+        print(nums, valDict)
 
         triples = set()
         for i in range(len(nums)):
             valDict[nums[i]] -= 1
             for j in range(len(nums)):
-                if 0 == valDict[nums[j]] or nums[i] > nums[j]:
+                if i == j or nums[i] > nums[j]:
                     continue
 
                 valDict[nums[j]] -= 1
