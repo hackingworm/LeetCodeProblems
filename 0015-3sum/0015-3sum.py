@@ -11,7 +11,7 @@ class Solution:
             if 3 > valDict[num] or 4 > valDict[num] and 0 == num:
                 nums.append(num) 
 
-        print(nums, valDict)
+        #print(nums, valDict)
 
         triples = set()
         for i in range(len(nums)):
@@ -29,27 +29,6 @@ class Solution:
 
         return list(triples)
 
-        '''
-        dict = {}
-        #nums.sort()
-        for i in range(len(nums)):
-            dict[nums[i]] = i
-
-        triples = set()
-        for i in range(len(nums)):
-            for j in range(len(nums)):
-                if j == i or nums[j] < nums[i]:
-                    continue
-                
-                k = dict.get(-nums[i] - nums[j])
-                if None == k:
-                    continue
-
-                if k != i and k != j and nums[k] >= nums[j]:
-                    triples.add((nums[i], nums[j], nums[k]))
-
-        return list(triples)
-        '''
 
         '''
         triples = set()
