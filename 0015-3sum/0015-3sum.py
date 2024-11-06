@@ -8,17 +8,18 @@ class Solution:
                 valDict[num] += 1
             else:
                 valDict[num] = 1
+                newNums.append(num)
 
-            if 3 > valDict[num] or 4 > valDict[num] and 0 == num:
-                newNums.append(num) 
+            #if 3 > valDict[num] or 4 > valDict[num] and 0 == num:
+            #    newNums.append(num) 
 
-        #print(newNums, valDict)
+        print(newNums, valDict)
 
         triples = set()
         for i in range(len(newNums)):
             valDict[newNums[i]] -= 1
             for j in range(len(newNums)):
-                if i == j or newNums[i] > newNums[j]:
+                if 0 == valDict[newNums[j]] or newNums[i] > newNums[j]:
                     continue
 
                 valDict[newNums[j]] -= 1
