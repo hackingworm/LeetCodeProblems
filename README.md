@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0005-longest-palindromic-substring) |
 | [0125-valid-palindrome](https://github.com/hackingworm/LeetCodeProblems/tree/master/0125-valid-palindrome) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
+| [0680-valid-palindrome-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0680-valid-palindrome-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/hackingworm/LeetCodeProblems/tree/master/0125-valid-palindrome) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
+| [0680-valid-palindrome-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0680-valid-palindrome-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -97,4 +99,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/hackingworm/LeetCodeProblems/tree/master/0084-largest-rectangle-in-histogram) |
+## Greedy
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
