@@ -1,14 +1,15 @@
 class Solution:
     def addSuffix(self, startingConsonant: str, wordCount: int, result: str) -> str:
-        #print("Begin: ", result)
+        # If the starting letter is consonant, it should be put at the end of the word
         if '' != startingConsonant:
             result += startingConsonant
 
+        # Add 'ma'
         result += 'ma'
 
+        # Append 'a' per its word index in the sentence
         for i in range(wordCount):
             result += 'a'
-        #print("End: ", result)
 
         return result
 
@@ -21,8 +22,8 @@ class Solution:
         startingConsonant = ''
         for i in range(len(sentence)):
             char = sentence[i]
-            #print(char)
 
+            # Begin to screen a new word
             if not wordInprocess:
                 wordInprocess = True
                 if char not in vowels:
@@ -31,13 +32,13 @@ class Solution:
                 else:
                     startingConsonant = ''
         
+            # Meet ' ', which means the end of a word
             if ' ' == char:
-                #print('space')
                 wordCount += 1
                 wordInprocess = False
                 result = self.addSuffix(startingConsonant, wordCount, result)
 
             result += char
 
+        # Add suffix for the last word
         return self.addSuffix(startingConsonant, wordCount + 1, result)
-        #return result
