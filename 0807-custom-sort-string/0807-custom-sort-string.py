@@ -16,7 +16,7 @@ class Solution:
         #print(result)
 
         for char in order:
-            print(char, freqs[char])
+            #print(char, freqs[char])
             for i in range(freqs[char]):
                 result += char
 
