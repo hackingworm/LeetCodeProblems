@@ -9,7 +9,7 @@ class Solution:
             elif num > sorted[middle]:
                 end = middle
             else:
-                begin = middle
+                begin = middle + 1
                 end = middle
 
         if (8221 == num):
