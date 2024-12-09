@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
+| [0807-custom-sort-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0807-custom-sort-string) |
 ## String
 |  |
 | ------- |
@@ -28,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/hackingworm/LeetCodeProblems/tree/master/0125-valid-palindrome) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0680-valid-palindrome-ii) |
+| [0807-custom-sort-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0807-custom-sort-string) |
 ## Sliding Window
 |  |
 | ------- |
@@ -70,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0015-3sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
+| [0807-custom-sort-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0807-custom-sort-string) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
