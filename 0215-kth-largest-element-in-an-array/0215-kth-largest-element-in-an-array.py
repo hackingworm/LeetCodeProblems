@@ -1,3 +1,5 @@
+import heapq
+
 class Solution:
     # Insert and keep order. Binary search is used to enhance performance 
     def insert(self, num: int, sorted: List[int]):
@@ -16,6 +18,7 @@ class Solution:
         sorted.insert(begin, num)
 
     def findKthLargest(self, nums: List[int], k: int) -> int:
+        '''
         # This array is used to keep K largest numbers in 'nums' in descent order
         kLargests = []
 
@@ -30,3 +33,15 @@ class Solution:
 
         # Kth element in kLargest is just what wanted
         return kLargests[-1]
+        '''
+
+        kLargests = [0] * k
+        for i in range(k):
+            kLargests[i] = nums[i]
+        heapq.heapify(kLargests)
+
+        for i in range(k, len(nums)):
+            if kLargests[0] < nums[i]:
+                heapq.heappushpop(kLargests, nums[i])
+
+        return kLargests[0]
