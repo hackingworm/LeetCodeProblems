@@ -10,9 +10,4 @@ class Solution:
             if 0 < middle and nums[middle - 1] >= nums[middle]:
                 end = middle
             else:
-                #len(nums) > middle + 1 and nums[middle + 1] >= nums[middle]:
                 begin = middle + 1
-
-        print(begin, end)
-        return begin
-        
