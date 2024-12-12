@@ -14,6 +14,7 @@ class WorkingNode:
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         candidate = None
+
         nodes = [WorkingNode(None, root, False)]
         while 0 < len(nodes):
             node = nodes[len(nodes) - 1]
