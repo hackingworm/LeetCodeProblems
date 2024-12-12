@@ -16,7 +16,6 @@ class Solution:
         candidate = None
         nodes = [WorkingNode(None, root, False)]
         while 0 < len(nodes):
-            #index = len(nodes) - 1
             node = nodes[len(nodes) - 1]
 
             if node.visited:
@@ -30,10 +29,8 @@ class Solution:
 
             if node.treeNode == p or node.treeNode == q:
                 if None != candidate:
-                    #print(candidate.treeNode.val, node.treeNode.val)
                     return candidate.treeNode
                 
-                #print(node.treeNode.val)
                 candidate = node
 
             if None != node.treeNode.right:
