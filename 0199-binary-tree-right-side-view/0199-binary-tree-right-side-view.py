@@ -20,7 +20,6 @@ class Solution:
                 if node.right:
                     nextLevel.append(node.right)
                 
-            #print(nextLevel)
             result.append(current[-1].val)
             current = nextLevel
 
