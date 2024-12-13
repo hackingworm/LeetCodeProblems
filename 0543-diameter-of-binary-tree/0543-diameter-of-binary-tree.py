@@ -34,10 +34,12 @@ class Solution:
             onlyChild = root.left
 
         if None != onlyChild:
+            diameter = self.heightOfBinaryTree(onlyChild) + 1
+
             childDiameter = self.diameterOfBinaryTree(onlyChild)
-            if self.heightOfBinaryTree(onlyChild) == childDiameter:
-                childDiameter += 1
-            return childDiameter
+            if childDiameter > diameter:
+                diameter = childDiameter
+            return diameter
 
         diameter = self.heightOfBinaryTree(root.left) + self.heightOfBinaryTree(root.right) + 2
 
