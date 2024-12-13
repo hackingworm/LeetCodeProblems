@@ -19,7 +19,6 @@ class Solution:
         else:
             hRight = self.heightOfBinaryTree(root.right)
 
-        #print(root.val, hLeft, hRight)
         return max(hLeft, hRight) + 1
 
         
