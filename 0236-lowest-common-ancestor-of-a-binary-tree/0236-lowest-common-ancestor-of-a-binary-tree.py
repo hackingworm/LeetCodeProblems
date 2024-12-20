@@ -5,11 +5,13 @@
 #         self.left = None
 #         self.right = None
 
+'''
 class WorkingNode:
     def __init__(self, parent: 'WorkingNode', treeNode: 'TreeNode', visited: bool):
         self.parent = parent
         self.treeNode = treeNode
         self.visited = visited
+'''
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
