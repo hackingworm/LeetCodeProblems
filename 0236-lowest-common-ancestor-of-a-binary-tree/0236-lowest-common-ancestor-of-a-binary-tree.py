@@ -13,6 +13,7 @@ class WorkingNode:
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        '''
         candidate = None
 
         nodes = [WorkingNode(None, root, False)]
@@ -39,3 +40,20 @@ class Solution:
 
             if None != node.treeNode.left:
                 nodes.append(WorkingNode(node, node.treeNode.left, False))
+            '''
+
+        if root == p or root == q:
+            return root
+
+        left = None
+        if root.left:
+            left = self.lowestCommonAncestor(root.left, p, q)
+
+        right = None
+        if root.right:
+            right = self.lowestCommonAncestor(root.right, p, q)
+
+        if left and right:
+            return root
+
+        return left if left else right
