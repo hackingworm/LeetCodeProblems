@@ -47,12 +47,7 @@ class Solution:
         if None == root or root == p or root == q:
             return root
 
-        #left = None
-        #if root.left:
         left = self.lowestCommonAncestor(root.left, p, q)
-
-        #right = None
-        #if root.right:
         right = self.lowestCommonAncestor(root.right, p, q)
 
         if left and right:
