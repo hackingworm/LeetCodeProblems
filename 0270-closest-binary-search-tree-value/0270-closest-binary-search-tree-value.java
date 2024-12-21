@@ -25,7 +25,6 @@ class Solution {
             }
 
             if (Math.abs(diff) < closestDiff) {
-                // System.out.println("closestDiff: " + closestDiff + " diff: " + diff + " closest:" + closest + " current: " + current.val);
                 closestDiff = Math.abs(diff);
                 closest = current.val;
             }
