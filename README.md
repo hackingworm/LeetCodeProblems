@@ -123,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0543-diameter-of-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/hackingworm/LeetCodeProblems/tree/master/0975-range-sum-of-bst) |
+| [0998-check-completeness-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0998-check-completeness-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -135,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
+| [0998-check-completeness-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0998-check-completeness-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -143,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0543-diameter-of-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/hackingworm/LeetCodeProblems/tree/master/0975-range-sum-of-bst) |
+| [0998-check-completeness-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0998-check-completeness-of-a-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
