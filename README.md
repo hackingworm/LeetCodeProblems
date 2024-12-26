@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/hackingworm/LeetCodeProblems/tree/master/0050-powx-n) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
@@ -157,4 +158,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0975-range-sum-of-bst](https://github.com/hackingworm/LeetCodeProblems/tree/master/0975-range-sum-of-bst) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/hackingworm/LeetCodeProblems/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
