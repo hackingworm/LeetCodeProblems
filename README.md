@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/hackingworm/LeetCodeProblems/tree/master/0014-longest-common-prefix) |
+| [0071-simplify-path](https://github.com/hackingworm/LeetCodeProblems/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/hackingworm/LeetCodeProblems/tree/master/0125-valid-palindrome) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0680-valid-palindrome-ii) |
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/hackingworm/LeetCodeProblems/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/hackingworm/LeetCodeProblems/tree/master/0084-largest-rectangle-in-histogram) |
 ## Monotonic Stack
 |  |
