@@ -37,7 +37,6 @@ class Solution {
                 continue;
             }
 
-            // System.out.println("Here: " + element);
             elementStack.push(element);
         }
 
@@ -45,17 +44,13 @@ class Solution {
             return "/";
         }
 
-        Stack<String> reversed = new Stack<>();
+        String simplePath = elementStack.pop();
         while (!elementStack.empty()) {
-            reversed.push(elementStack.pop());
+            simplePath = elementStack.pop() + '/' + simplePath;
         }
 
-        String simplePath = "";
-        while (!reversed.empty()) {
-            // System.out.println(reversed.peek());
-            simplePath += '/' + reversed.pop();
-        }
-        
+        simplePath = '/' + simplePath;
+
         return simplePath;
     }
 }
