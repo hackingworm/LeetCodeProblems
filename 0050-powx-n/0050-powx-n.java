@@ -23,22 +23,14 @@ class Solution {
             pln = -pln;
         }
 
-        double result;
-        if (1 < x) {
-            result = x;
-            long l = 1;
-            while (pln >= 2 * l) {
-                result *= result;
-                l *= 2;
-            }
-
-            result *= myPow(x, (int)(pln - l));
-        } else {
-            result = 1;
-            for (long l = 0; l < pln; l++) {
-                result *= x;
-            }
+        double result = x;
+        long l = 1;
+        while (pln >= 2 * l) {
+            result *= result;
+            l *= 2;
         }
+
+        result *= myPow(x, (int)(pln - l));
 
         if (0 > ln) {
             result = 1/result;
