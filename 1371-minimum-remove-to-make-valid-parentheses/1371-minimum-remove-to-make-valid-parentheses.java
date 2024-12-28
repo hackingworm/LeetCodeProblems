@@ -17,7 +17,7 @@ class Solution {
                     continue;
                 }
                 
-                s = s.substring(0, index) + s.substring(index + 1, s.length());
+                s = s.substring(0, index) + s.substring(index + 1);
                 continue;
             }
 
@@ -26,7 +26,7 @@ class Solution {
 
         while (!indices.empty()) {
             index = indices.pop();
-            s = s.substring(0, index) + s.substring(index + 1, s.length());
+            s = s.substring(0, index) + s.substring(index + 1);
         }
 
         return s;
