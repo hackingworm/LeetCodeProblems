@@ -1,7 +1,5 @@
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 class Solution {
+    /*
     private int muldiv(String s) {
         int product = 1;
         int from = 0;
@@ -35,8 +33,10 @@ class Solution {
 
         return product;
     }
+    */
 
     public int calculate(String s) {
+        /*
         int sum = 0;
         int from = 0;
         char op = '+';
@@ -57,6 +57,54 @@ class Solution {
 
         int value = muldiv(s.substring(from).trim());
         sum += '+' == op? value: -value;
+
+        return sum;
+        */
+
+        Stack<Integer> operands = new Stack<>();
+
+        char operator = '+';
+        int i = 0;
+        while (i < s.length()) {
+            char ch = s.charAt(i);
+            if ('0' <= ch && '9' >= ch) {
+                int j = i + 1;
+                while (j < s.length()) {
+                    ch = s.charAt(j);
+                    if ('0' > ch || '9' < ch) {
+                        break;
+                    }
+
+                    j++;
+                }
+
+                int num = Integer.parseInt(s.substring(i, j));
+                if ('+' == operator) {
+                    operands.push(num);
+                } else if ('-' == operator) {
+                    operands.push(-num);
+                } else if ('*' == operator) {
+                    operands.push(operands.pop() * num);
+                } else {
+                    // Now, operator must be '/'.
+                    operands.push(operands.pop() / num);
+                }
+
+                i = j;
+                continue;
+            }
+
+            if ('+' == ch || '-' == ch || '*' == ch || '/' == ch) {
+                operator = ch;
+            }
+
+            i++;
+        }
+
+        int sum = 0;
+        while (!operands.empty()) {
+            sum += operands.pop();
+        }
 
         return sum;
     }
