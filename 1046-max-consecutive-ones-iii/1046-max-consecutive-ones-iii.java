@@ -1,35 +1,29 @@
 class Solution {
     public int longestOnes(int[] nums, int k) {
         int longest = 0;
+        int windowLength = 0;
+        int begin = 0;
 
-        int start = 0;
-        while (nums.length > start) {
-            int leadingZeros;
-            for (leadingZeros = 0; nums.length > start && 0 == nums[start]; start++, leadingZeros++);
-
-            int length;
-            for (length = 0; nums.length > start && 1 == nums[start]; length++, start++);
-            int nextStart = start;
-
-            int count = k;
-            for (; nums.length > start; start++) {
-                if (0 == nums[start]) {
-                    if (0 == count) {
-                        break;
+        for (int end = 0; end < nums.length; end++) {
+            if (0 == nums[end]) {
+                if (k > windowLength) {
+                    windowLength++;
+                } else {
+                    if (longest < end - begin) {
+                        longest = end - begin;
                     }
 
-                    count--;
+                    while (1 == nums[begin]) {
+                        begin++;
+                    }
+
+                    begin++;
                 }
-
-                length++;
             }
+        }
 
-            length += leadingZeros < count? leadingZeros: count;
-            if (longest < length) {
-                longest = length;
-            }
-
-            start = nextStart;
+        if (longest < nums.length - begin) {
+            longest = nums.length - begin;
         }
 
         return longest;
