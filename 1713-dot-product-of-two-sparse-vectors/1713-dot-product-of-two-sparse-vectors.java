@@ -3,7 +3,6 @@ class SparseVector {
     SparseVector(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             if (0 != nums[i]) {
-                // Pair<Integer, Integer> pair = new Pair<>(i, nums[i]);
                 nonZeros.add(new Pair<>(i, nums[i]));
             }
         }
