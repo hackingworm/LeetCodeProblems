@@ -12,7 +12,6 @@ class Solution {
             if (sumMap.containsKey(sums[i])) {
                 List<Integer> list = sumMap.get(sums[i]);
                 list.add(i);
-                Collections.sort(list);
             } else {
                 List<Integer> list = new ArrayList<>();
                 list.add(i);
