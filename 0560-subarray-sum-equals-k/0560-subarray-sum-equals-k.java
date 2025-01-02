@@ -14,12 +14,6 @@ class Solution {
             } else {
                 sumMap.put(sum, 1);
             }
-            
-            /*
-            if (sumMap.containsKey(sum - k)) {
-                count += sumMap.get(sum - k);
-            }
-            */
         }
 
         return count;
