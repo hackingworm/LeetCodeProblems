@@ -21,7 +21,6 @@ class Solution {
                 tmap.put(ch, 1);
             }
         }
-        // System.out.println(tmap);
 
         HashMap<Character, Integer> smap = new HashMap<>();
         boolean found = false;
@@ -36,7 +35,6 @@ class Solution {
                 }
 
                 if (0 == tmap.get(ch).compareTo(smap.get(ch))) {
-                    // System.out.println(ch + ", " + smap);
                     if (allIncluded(tmap, smap)) {
                         found = true;
                         break;
@@ -44,7 +42,6 @@ class Solution {
                 }
             }
         }
-        // System.out.println(smap);
 
         if (!found) {
             System.out.println("No found");
