@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0807-custom-sort-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0807-custom-sort-string) |
 | [0851-goat-latin](https://github.com/hackingworm/LeetCodeProblems/tree/master/0851-goat-latin) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/hackingworm/LeetCodeProblems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1178-valid-palindrome-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1178-valid-palindrome-iii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/hackingworm/LeetCodeProblems/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Sliding Window
 |  |
@@ -80,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0005-longest-palindromic-substring) |
+| [1178-valid-palindrome-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1178-valid-palindrome-iii) |
 ## Math
 |  |
 | ------- |
