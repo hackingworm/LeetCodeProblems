@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0076-minimum-window-substring) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/hackingworm/LeetCodeProblems/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0015-3sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0807-custom-sort-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0807-custom-sort-string) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
@@ -147,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0543-diameter-of-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/hackingworm/LeetCodeProblems/tree/master/0975-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -157,12 +160,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0543-diameter-of-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/hackingworm/LeetCodeProblems/tree/master/0975-range-sum-of-bst) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0998-check-completeness-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -170,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0543-diameter-of-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/hackingworm/LeetCodeProblems/tree/master/0975-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0998-check-completeness-of-a-binary-tree) |
