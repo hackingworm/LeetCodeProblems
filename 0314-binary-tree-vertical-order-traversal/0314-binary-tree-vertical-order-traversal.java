@@ -33,25 +33,19 @@ class Solution {
 
         TreeNode[] queue = new TreeNode[1];
         queue[0] = root;
-        // int[] distr = new int[1];
-        // distr[0] = 0;
         int nonempties = 1;
 
         while (0 < nonempties) {
             TreeNode[] queueNext = new TreeNode[queue.length * 2];
-            // int[] distrNext = new int[distr.length * 2];
             nonempties = 0;
             
             for (int i = 0; i < queue.length; i++) {
-                // distrNext[2 * i] = distr[i];
-                // distrNext[2 * i + 1] = distr[i] + 2;
-
                 TreeNode node = queue[i];
                 if (null == node) {
                     continue;
                 }
 
-                results.get(/*distr[i]*/ numOfOnes(i) * 2).add(node.val);
+                results.get(numOfOnes(i) * 2).add(node.val);
                 if (null != node.left) {
                     queueNext[i * 2] = node.left;
                     nonempties++;
@@ -66,7 +60,6 @@ class Solution {
             results.add(0, new ArrayList<Integer>());
             results.add(results.size(), new ArrayList<Integer>());
             queue = queueNext;
-            // distr = distrNext;
         }
         
         for (int i = 0; i < results.size();) {
