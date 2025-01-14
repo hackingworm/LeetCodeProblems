@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/hackingworm/LeetCodeProblems/tree/master/0560-subarray-sum-equals-k) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/hackingworm/LeetCodeProblems/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1909-buildings-with-an-ocean-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/1909-buildings-with-an-ocean-view) |
 ## Hash Table
@@ -172,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Binary Tree
 |  |
 | ------- |
@@ -201,4 +203,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/hackingworm/LeetCodeProblems/tree/master/1713-dot-product-of-two-sparse-vectors) |
+## Matrix
+|  |
+| ------- |
+| [1171-shortest-path-in-binary-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/1171-shortest-path-in-binary-matrix) |
 <!---LeetCode Topics End-->
