@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/hackingworm/LeetCodeProblems/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/hackingworm/LeetCodeProblems/tree/master/0050-powx-n) |
 | [0227-basic-calculator-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0227-basic-calculator-ii) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
@@ -201,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/hackingworm/LeetCodeProblems/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/hackingworm/LeetCodeProblems/tree/master/0050-powx-n) |
 ## Prefix Sum
 |  |
@@ -220,4 +222,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/hackingworm/LeetCodeProblems/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
