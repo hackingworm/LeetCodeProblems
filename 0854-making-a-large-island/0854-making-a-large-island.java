@@ -4,7 +4,6 @@ class Solution {
 
     int[][] nearby(int row, int col) {
         int[][] nearby = new int[4][2];
-
         nearby[0][0] = row;
         nearby[0][1] = col - 1;
         nearby[1][0] = row;
@@ -13,13 +12,11 @@ class Solution {
         nearby[2][1] = col;
         nearby[3][0] = row + 1;
         nearby[3][1] = col;
-
         return nearby;
     }
 
     int expand(int row, int col, int index) {
         grid[row][col] = index;
-
         int size = 1;
         for (int[] point: nearby(row, col)) {
             int r = point[0], c = point[1];
@@ -52,8 +49,7 @@ class Solution {
                     Set<Integer> adjacent = new HashSet();
                     for (int[] point: nearby(row, col)) {
                         int r = point[0], c = point[1];
-                        if (0 <= r && len > r && 0 <= c && len > c
-                            && 1 < grid[r][c])
+                        if (0 <= r && len > r && 0 <= c && len > c && 1 < grid[r][c])
                             adjacent.add(grid[r][c]);
                     }
 
