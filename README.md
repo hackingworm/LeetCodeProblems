@@ -134,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0071-simplify-path](https://github.com/hackingworm/LeetCodeProblems/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/hackingworm/LeetCodeProblems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0227-basic-calculator-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0227-basic-calculator-ii) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/hackingworm/LeetCodeProblems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/hackingworm/LeetCodeProblems/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1909-buildings-with-an-ocean-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/1909-buildings-with-an-ocean-view) |
@@ -159,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0543-diameter-of-binary-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/hackingworm/LeetCodeProblems/tree/master/0975-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -171,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0543-diameter-of-binary-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/hackingworm/LeetCodeProblems/tree/master/0975-range-sum-of-bst) |
@@ -191,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0543-diameter-of-binary-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/hackingworm/LeetCodeProblems/tree/master/0975-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -199,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0975-range-sum-of-bst](https://github.com/hackingworm/LeetCodeProblems/tree/master/0975-range-sum-of-bst) |
 ## Recursion
 |  |
@@ -228,4 +233,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/hackingworm/LeetCodeProblems/tree/master/0002-add-two-numbers) |
 | [0138-copy-list-with-random-pointer](https://github.com/hackingworm/LeetCodeProblems/tree/master/0138-copy-list-with-random-pointer) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 <!---LeetCode Topics End-->
