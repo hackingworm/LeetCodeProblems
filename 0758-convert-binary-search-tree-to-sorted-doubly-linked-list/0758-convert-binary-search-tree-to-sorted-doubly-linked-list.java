@@ -20,24 +20,6 @@ class Node {
 */
 
 class Solution {
-    void printDLL(Node head) {
-        if (null == head) {
-            return;
-        }
-
-        System.out.print(head.val);
-        for (Node node = head.right; node != head; node = node.right) {
-            System.out.print("->" + node.val);
-        }
-        System.out.println();
-
-        System.out.print(head.val);
-        for (Node node = head.left; node != head; node = node.left) {
-            System.out.print("->" + node.val);
-        }
-        System.out.println();
-    }
-
     public Node treeToDoublyList(Node root) {
         if (null == root) {
             return null;
@@ -64,7 +46,6 @@ class Solution {
             head.left = root;
         }
 
-        // printDLL(head);
         return head;
     }
 }
