@@ -34,12 +34,12 @@ class Solution {
         this.grid = grid;
         len = grid.length;
 
-        List<Integer> isolates = new ArrayList();
+        int[] isolates = new int[len * len / 2 + 1];
         int index = 2;
         for (int row = 0; row < len; row++) {
             for (int col = 0; col < len; col++) {
                 if (1 == grid[row][col]) {
-                    isolates.add(expand(row, col, index++));
+                    isolates[index - 2] = expand(row, col, index++);
                 }
             }
         }
@@ -65,7 +65,7 @@ class Solution {
 
                     int size = 1;
                     for (int idx: adjacent) {
-                        size += isolates.get(idx - 2);
+                        size += isolates[idx - 2];
                     }
 
                     if (largest < size) {
