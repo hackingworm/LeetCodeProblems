@@ -1,5 +1,6 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
+        /*
         for (int i = 0; i < intervals.length - 1; i++) {
             int min = i;
             for (int j = i; j < intervals.length; j++) {
@@ -14,7 +15,9 @@ class Solution {
                 intervals[min] = tmp;
             }
         }
+        */
 
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         List<int[]> merged = new ArrayList();
         int[] prev = intervals[0];
         for (int i = 1; i < intervals.length; i++) {
