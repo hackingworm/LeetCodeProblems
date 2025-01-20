@@ -1,25 +1,24 @@
 class MovingAverage {
     List<Integer> queue;
     int winSize;
+    int sum;
 
     public MovingAverage(int size) {
         winSize = size;
+        sum = 0;
         queue = new ArrayList(winSize);    
     }
     
     public double next(int val) {
         if (winSize == queue.size()) {
+            sum -= queue.get(0);
             queue.remove(0);
         }
 
         queue.add(val);
+        sum += val;
 
-        double sum = 0;
-        for (int i = 0; i < queue.size(); i++) {
-            sum += queue.get(i);
-        }
-
-        return sum / queue.size();
+        return (double)sum / queue.size();
     }
 }
 
