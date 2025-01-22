@@ -9,7 +9,7 @@ class Solution {
     }
     
     public int pickIndex() {
-        double rnd = Math.random() * (double)accums[accums.length - 1];
+        double rnd = Math.random() * accums[accums.length - 1];
 
         int i;
         for (i = 0; i < accums.length && accums[i] < rnd; i++);
