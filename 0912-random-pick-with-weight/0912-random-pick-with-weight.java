@@ -14,13 +14,6 @@ class Solution {
             accum += w[i];
             distr[i] = (double)accum / sum;
         }
-
-        /*
-        for (int i = 0; i < distr.length; i++) {
-            System.out.print(distr[i] + " ");
-        }
-        System.out.println();
-        */
     }
     
     public int pickIndex() {
