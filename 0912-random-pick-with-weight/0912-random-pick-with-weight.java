@@ -1,26 +1,18 @@
 class Solution {
-    double[] distr;
+    int[] accums;
 
     public Solution(int[] w) {
-        distr = new double[w.length];
-        
-        int sum = 0;
-        for (int v : w) {
-            sum += v;
-        }
-
-        int accum = 0;
-        for (int i = 0; i < w.length; i++) {
-            accum += w[i];
-            distr[i] = (double)accum / sum;
+        accums = w;
+        for (int i = 0; i < accums.length - 1; i++) {
+            accums[i + 1] += accums[i];
         }
     }
     
     public int pickIndex() {
-        double v = Math.random();
+        double rnd = Math.random() * (double)accums[accums.length - 1];
 
         int i;
-        for (i = 0; i < distr.length && distr[i] < v; i++);
+        for (i = 0; i < accums.length && accums[i] < rnd; i++);
 
         return i;
     }
