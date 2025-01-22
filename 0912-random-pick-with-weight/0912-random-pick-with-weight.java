@@ -1,26 +1,33 @@
 class Solution {
-    int[] weights;
-    int sum;
+    double[] distr;
 
     public Solution(int[] w) {
-        weights = w;
-        sum = 0;
+        distr = new double[w.length];
+        
+        int sum = 0;
         for (int v : w) {
             sum += v;
         }
+
+        int accum = 0;
+        for (int i = 0; i < w.length; i++) {
+            accum += w[i];
+            distr[i] = (double)accum / sum;
+        }
+
+        /*
+        for (int i = 0; i < distr.length; i++) {
+            System.out.print(distr[i] + " ");
+        }
+        System.out.println();
+        */
     }
     
     public int pickIndex() {
         double v = Math.random();
 
-        int accum = 0;
         int i;
-        for (i = 0; i < weights.length; i++) {
-            accum += weights[i];
-            if (sum * v <= accum) {
-                break;
-            }
-        }
+        for (i = 0; i < distr.length && distr[i] < v; i++);
 
         return i;
     }
