@@ -44,11 +44,8 @@ class LRUCache {
         }
 
         CacheUnit cacheUnit = map.get(key);
-        if (head.next != cacheUnit) {
-            detach(cacheUnit);
-            prepend(cacheUnit);
-        }
-
+        detach(cacheUnit);
+        prepend(cacheUnit);
         return cacheUnit.value;
     }
     
@@ -56,31 +53,23 @@ class LRUCache {
         CacheUnit cacheUnit;
         if (map.containsKey(key)) {
             cacheUnit = map.get(key);
+            detach(cacheUnit);
             cacheUnit.value = value;
-            
-            if (head.next != cacheUnit) {
-                detach(cacheUnit);
-                prepend(cacheUnit);
-            }
         } else {
-            if (capacity > size) {
-                cacheUnit = new CacheUnit(key, value);
-                prepend(cacheUnit);
-                size++;
-            } else {
+            if (capacity == size) {
                 cacheUnit = tail.prev;
+                detach(cacheUnit);
                 map.remove(cacheUnit.key);
-                cacheUnit.key = key;
-                cacheUnit.value = value;
-
-                if (head.next != cacheUnit) {
-                    detach(cacheUnit);
-                    prepend(cacheUnit);
-                }
+                cacheUnit = new CacheUnit(key, value);
+            } else {
+                size++;
             }
             
+            cacheUnit = new CacheUnit(key, value);
             map.put(key, cacheUnit);
         }
+
+        prepend(cacheUnit);
     }
 }
 
