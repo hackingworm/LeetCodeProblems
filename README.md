@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/hackingworm/LeetCodeProblems/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/hackingworm/LeetCodeProblems/tree/master/0146-lru-cache) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/hackingworm/LeetCodeProblems/tree/master/0560-subarray-sum-equals-k) |
@@ -229,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/hackingworm/LeetCodeProblems/tree/master/0146-lru-cache) |
 | [0346-moving-average-from-data-stream](https://github.com/hackingworm/LeetCodeProblems/tree/master/0346-moving-average-from-data-stream) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/hackingworm/LeetCodeProblems/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Matrix
@@ -245,10 +247,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/hackingworm/LeetCodeProblems/tree/master/0002-add-two-numbers) |
 | [0138-copy-list-with-random-pointer](https://github.com/hackingworm/LeetCodeProblems/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/hackingworm/LeetCodeProblems/tree/master/0146-lru-cache) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/hackingworm/LeetCodeProblems/tree/master/0146-lru-cache) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 ## Line Sweep
 |  |
