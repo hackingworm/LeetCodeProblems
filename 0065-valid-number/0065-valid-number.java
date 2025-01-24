@@ -13,15 +13,9 @@ class Solution {
         }
 
         int preDot = getDigits(s.substring(i, s.length()));
-        /*
-        while (s.length() > i + preDot
-            && Character.isDigit(s.charAt(i + preDot))) {
-            preDot++;
-        }
-        */
         i += preDot;
 
-        if (i == s.length()) {
+        if (s.length() == i) {
             return preDot > 0;
         }
 
@@ -30,12 +24,6 @@ class Solution {
         }
 
         int postDot = getDigits(s.substring(i, s.length()));
-        /*
-        while(s.length() > i + postDot
-            && Character.isDigit(s.charAt(i + postDot))) {
-            postDot++;
-        }
-        */
         i += postDot;
 
         if (0 == preDot && 0 == postDot) {
@@ -60,17 +48,8 @@ class Solution {
             i++;
         }
 
-        if (s.length() == i) {
-            return false;
-        }
 
         int num = getDigits(s.substring(i, s.length()));
-        /*
-        while (s.length() > i + num
-            && Character.isDigit(s.charAt(i + num))) {
-            num++;
-        }
-        */
 
         return 0 < num && s.length() == i + num;
     }
