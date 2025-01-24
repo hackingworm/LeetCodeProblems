@@ -1,7 +1,10 @@
-/*
-+/-[0-9]*[.][0-9]*[e/E][0-9]+
-*/
 class Solution {
+    int getDigits(String s) {
+        int i = 0;
+        for (i = 0; i < s.length() && Character.isDigit(s.charAt(i)); i++);
+        return i;
+    }
+
     public boolean isNumber(String s) {
         int i = 0;
 
@@ -9,11 +12,13 @@ class Solution {
             i++;
         }
 
-        int preDot = 0;
+        int preDot = getDigits(s.substring(i, s.length()));
+        /*
         while (s.length() > i + preDot
             && Character.isDigit(s.charAt(i + preDot))) {
             preDot++;
         }
+        */
         i += preDot;
 
         if (i == s.length()) {
@@ -24,11 +29,13 @@ class Solution {
             i++;
         }
 
-        int postDot = 0;
+        int postDot = getDigits(s.substring(i, s.length()));
+        /*
         while(s.length() > i + postDot
             && Character.isDigit(s.charAt(i + postDot))) {
             postDot++;
         }
+        */
         i += postDot;
 
         if (0 == preDot && 0 == postDot) {
@@ -57,11 +64,13 @@ class Solution {
             return false;
         }
 
-        int num = 0;
+        int num = getDigits(s.substring(i, s.length()));
+        /*
         while (s.length() > i + num
             && Character.isDigit(s.charAt(i + num))) {
             num++;
         }
+        */
 
         return 0 < num && s.length() == i + num;
     }
