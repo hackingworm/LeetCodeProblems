@@ -48,7 +48,6 @@ class Solution {
             i++;
         }
 
-
         int num = getDigits(s.substring(i, s.length()));
 
         return 0 < num && s.length() == i + num;
