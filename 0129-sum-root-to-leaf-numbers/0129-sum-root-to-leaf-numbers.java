@@ -14,22 +14,22 @@
  * }
  */
 class Solution {
-    int sumNumber(TreeNode root, int ancestry) {
-        ancestry *= 10;
-        ancestry += root.val;
+    int sumNumber(TreeNode root, int bonus) {
+        bonus *= 10;
+        bonus += root.val;
 
         if (null == root.left && null == root.right) {
-            return ancestry; 
+            return bonus; 
         }
 
         int sum = 0;
 
         if (null != root.left) {
-            sum += sumNumber(root.left, ancestry);
+            sum += sumNumber(root.left, bonus);
         }
 
         if (null != root.right) {
-            sum += sumNumber(root.right, ancestry);
+            sum += sumNumber(root.right, bonus);
         }
 
         return sum;
