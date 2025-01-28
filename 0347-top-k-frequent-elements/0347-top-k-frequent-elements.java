@@ -9,8 +9,8 @@ class Solution {
         }
 
         @Override
-        public int compareTo(KV<K, V> kv) {
-            return value.compareTo(kv.value);
+        public int compareTo(KV<K, V> other) {
+            return value.compareTo(other.value);
         }
     }
 
@@ -24,7 +24,7 @@ class Solution {
             }
         }
 
-        KV[] frequences = new KV[map.size()];
+        KV<Integer, Integer>[] frequences = new KV[map.size()];
         int i = 0;
         for (Map.Entry<Integer, Integer> e : map.entrySet()) {
             frequences[i] = new KV(e.getKey(), e.getValue());
@@ -35,9 +35,7 @@ class Solution {
 
         int[] result = new int[k];
         for (i = 0; i < k; i++) {
-            KV<Integer, Integer> kv = frequences[frequences.length - i - 1];
-            // System.out.println(kv.key + " " + kv.value);
-            result[i] = kv.key;
+            result[i] = frequences[frequences.length - i -1].key;
         }
 
         return result;
