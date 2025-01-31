@@ -9,13 +9,6 @@ class Solution {
             modified.add(intervals[i]);
         }
 
-        /*
-        if (intervals.length == i) {
-            modified.add(newInterval);
-            return modified.toArray(new int[modified.size()][2]);
-        }
-        */
-
         if (intervals.length > i
             &&newInterval[0] <= intervals[i][1]
             && newInterval[0] > intervals[i][0]) {
