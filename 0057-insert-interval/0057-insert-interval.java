@@ -2,7 +2,7 @@ class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         ArrayList<int[]> modified = new ArrayList();
 
-        int i = 0;
+        int i;
         for (i = 0; intervals.length > i
             && newInterval[0] > intervals[i][0]
             && newInterval[0] > intervals[i][1]; i++) {
