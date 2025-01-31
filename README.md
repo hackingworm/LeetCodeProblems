@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0057-insert-interval](https://github.com/hackingworm/LeetCodeProblems/tree/master/0057-insert-interval) |
 | [0084-largest-rectangle-in-histogram](https://github.com/hackingworm/LeetCodeProblems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/hackingworm/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0162-find-peak-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0346-moving-average-from-data-stream](https://github.com/hackingworm/LeetCodeProblems/tree/master/0346-moving-average-from-data-stream) |
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0005-longest-palindromic-substring) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/hackingworm/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [1178-valid-palindrome-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1178-valid-palindrome-iii) |
 ## Math
 |  |
