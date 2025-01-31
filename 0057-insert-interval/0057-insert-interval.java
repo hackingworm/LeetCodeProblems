@@ -10,7 +10,7 @@ class Solution {
         }
 
         if (intervals.length > i
-            &&newInterval[0] <= intervals[i][1]
+            && newInterval[0] <= intervals[i][1]
             && newInterval[0] > intervals[i][0]) {
             newInterval[0] = intervals[i][0];
         }
