@@ -28,12 +28,6 @@ class Solution {
 
             int from = j;
             for (; j < nums.length; j++) {
-                /*
-                if (choosen[j]) {
-                    break;
-                }
-                */
-
                 if (from < j && nums[j - 1] == nums[j]) {
                     continue;
                 }
