@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hackingworm/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0162-find-peak-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0238-product-of-array-except-self](https://github.com/hackingworm/LeetCodeProblems/tree/master/0238-product-of-array-except-self) |
 | [0346-moving-average-from-data-stream](https://github.com/hackingworm/LeetCodeProblems/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/hackingworm/LeetCodeProblems/tree/master/0560-subarray-sum-equals-k) |
@@ -239,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/hackingworm/LeetCodeProblems/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/hackingworm/LeetCodeProblems/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
