@@ -1,11 +1,9 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> triples = new ArrayList();
-        
         Arrays.sort(nums);
 
+        List<List<Integer>> triples = new ArrayList();
         boolean[] choosen = new boolean[nums.length];
-
         for (int i = 0; i < nums.length - 2; i++) {
             if (choosen[i]) {
                 break;
