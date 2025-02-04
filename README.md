@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0039-combination-sum) |
 | [0056-merge-intervals](https://github.com/hackingworm/LeetCodeProblems/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/hackingworm/LeetCodeProblems/tree/master/0057-insert-interval) |
+| [0075-sort-colors](https://github.com/hackingworm/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/hackingworm/LeetCodeProblems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hackingworm/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -93,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/hackingworm/LeetCodeProblems/tree/master/0031-next-permutation) |
+| [0075-sort-colors](https://github.com/hackingworm/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/hackingworm/LeetCodeProblems/tree/master/0125-valid-palindrome) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
@@ -123,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/hackingworm/LeetCodeProblems/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/hackingworm/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
