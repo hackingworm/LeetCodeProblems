@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/hackingworm/LeetCodeProblems/tree/master/0004-median-of-two-sorted-arrays) |
 | [0015-3sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/hackingworm/LeetCodeProblems/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0039-combination-sum) |
 | [0056-merge-intervals](https://github.com/hackingworm/LeetCodeProblems/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/hackingworm/LeetCodeProblems/tree/master/0057-insert-interval) |
@@ -76,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/hackingworm/LeetCodeProblems/tree/master/0004-median-of-two-sorted-arrays) |
+| [0033-search-in-rotated-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0162-find-peak-element) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
