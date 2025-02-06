@@ -12,12 +12,37 @@ class Solution {
             return mid;
         }
 
-        int res = search(begin, mid);
-        if (-1 < res) {
-            return res;
+        int top = -2;
+        if (target < nums[mid]) {
+            top = search(begin, mid);
+            if (-1 < top) {
+                return top;
+            }
         }
 
-        return search(mid + 1, end);
+        int bottom = -2;
+        if (target > nums[mid]) {
+            bottom = search(mid + 1, end);
+            if (-1 < bottom) {
+                return bottom;
+            }
+        }
+
+        if (-2 == top) {
+            top = search(begin, mid);
+            if (-1 < top) {
+                return top;
+            }
+        }
+
+        if (-2 == bottom) {
+            bottom = search(mid + 1, end);
+            if (-1 < bottom) {
+                return bottom;
+            }
+        }
+
+        return -1;
     }
 
     public int search(int[] nums, int target) {
