@@ -46,11 +46,11 @@ class Solution {
     }
 
     public int search(int[] nums, int target) {
-        /*
         this.nums = nums;
         this.target = target;
         return search(0, nums.length);
-        */
+
+        /*
         for (int i = 0; i < nums.length; i++) {
             if (target == nums[i]) {
                 return i;
@@ -58,5 +58,6 @@ class Solution {
         }
 
         return -1;
+        */
     }
 }
