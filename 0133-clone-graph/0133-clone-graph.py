@@ -15,14 +15,13 @@ class Solution:
         pos = {}
         index = 0
 
-        print(node.val)
+        #print(node.val)
         pos[node.val] = index
 
         first = Node(node.val)
         cq = [first]
 
         index += 1
-        #node.val = -node.val
         q = [node]
 
         begin = 0
@@ -36,27 +35,17 @@ class Solution:
                     if neighbor.val in pos:
                         cloned.neighbors.append(cq[pos[neighbor.val]])
                     else:
-                        print(neighbor.val)
+                        #print(neighbor.val)
                         pos[neighbor.val] = index
                         cq.append(Node(neighbor.val))
                         cloned.neighbors.append(cq[pos[neighbor.val]])
 
                         index += 1
-                        #neighbor.val = -neighbor.val
                         q.append(neighbor)
         
             begin = end
             end = index
 
-        print(pos)
-
-        '''
-        for i in range(len(q)):
-            orig = q[i]
-            cloned = cq[i]
-            cloned.neightbors = []
-            for neighbor in orig.neighbors:
-                cloned.neighbors.append(cq[pos[-neighbor.val]])
-        '''    
+        #print(pos)
 
         return first
