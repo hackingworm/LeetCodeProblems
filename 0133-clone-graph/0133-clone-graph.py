@@ -17,9 +17,7 @@ class Solution:
 
         #print(node.val)
         pos[node.val] = index
-
-        first = Node(node.val)
-        cq = [first]
+        cq = [Node(node.val)]
 
         index += 1
         q = [node]
@@ -38,7 +36,8 @@ class Solution:
                         #print(neighbor.val)
                         pos[neighbor.val] = index
                         cq.append(Node(neighbor.val))
-                        cloned.neighbors.append(cq[pos[neighbor.val]])
+                        #cloned.neighbors.append(cq[pos[neighbor.val]])
+                        cloned.neighbors.append(cq[-1])
 
                         index += 1
                         q.append(neighbor)
@@ -48,4 +47,4 @@ class Solution:
 
         #print(pos)
 
-        return first
+        return cq[0]
