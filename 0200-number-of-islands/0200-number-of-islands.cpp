@@ -1,4 +1,5 @@
 class Solution {
+private:
     void claimIslands(int i, int j, vector<vector<char>>& grid) {
         queue<pair<int, int>> q;
         q.push({i, j});
