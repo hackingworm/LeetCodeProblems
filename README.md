@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hackingworm/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0162-find-peak-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0162-find-peak-element) |
+| [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/hackingworm/LeetCodeProblems/tree/master/0238-product-of-array-except-self) |
 | [0346-moving-average-from-data-stream](https://github.com/hackingworm/LeetCodeProblems/tree/master/0346-moving-average-from-data-stream) |
@@ -202,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0129-sum-root-to-leaf-numbers](https://github.com/hackingworm/LeetCodeProblems/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0133-clone-graph](https://github.com/hackingworm/LeetCodeProblems/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/hackingworm/LeetCodeProblems/tree/master/0207-course-schedule) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
@@ -217,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0133-clone-graph](https://github.com/hackingworm/LeetCodeProblems/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/hackingworm/LeetCodeProblems/tree/master/0207-course-schedule) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0339-nested-list-weight-sum) |
@@ -266,12 +269,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
 ## Linked List
 |  |
