@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0031-next-permutation](https://github.com/hackingworm/LeetCodeProblems/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/hackingworm/LeetCodeProblems/tree/master/0046-permutations) |
 | [0056-merge-intervals](https://github.com/hackingworm/LeetCodeProblems/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/hackingworm/LeetCodeProblems/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/hackingworm/LeetCodeProblems/tree/master/0075-sort-colors) |
@@ -319,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/hackingworm/LeetCodeProblems/tree/master/0046-permutations) |
 ## Graph
 |  |
 | ------- |
