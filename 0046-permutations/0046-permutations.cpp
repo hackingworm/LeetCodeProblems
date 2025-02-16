@@ -1,8 +1,11 @@
+#define RESTRICT_ORDER
+
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> rst;
-        /*
+
+        #if !defined(RESTRICT_ORDER)
         if (0 == nums.size()) {
             return rst;
         }
@@ -20,8 +23,7 @@ public:
 
             rst = nrst;
         }
-        */
-
+        #else
         if (1 == nums.size()) {
             rst.push_back({nums[0]});
             return rst;
@@ -36,6 +38,7 @@ public:
                 rst[i * subRst.size() + j].insert(rst[i * subRst.size() + j].begin() + 0, nums[i]);
             }
         }
+        #endif
         
         return rst;
     }
