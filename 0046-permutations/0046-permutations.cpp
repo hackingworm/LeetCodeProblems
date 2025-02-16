@@ -23,7 +23,9 @@ public:
 
             rst = nrst;
         }
+
         #else
+        
         if (1 == nums.size()) {
             rst.push_back({nums[0]});
             return rst;
