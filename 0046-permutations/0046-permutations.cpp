@@ -2,6 +2,7 @@ class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> rst;
+        /*
         if (0 == nums.size()) {
             return rst;
         }
@@ -17,14 +18,23 @@ public:
                 }
             }
 
-            /*
-            for (int j = 0; j < i; j++) {
-                nrst.push_back(rst[j]);
-                nrst[i * i + j].insert(nrst[i * i + j].begin() + 0, nums[i]);
-            }
-            */
-
             rst = nrst;
+        }
+        */
+
+        if (1 == nums.size()) {
+            rst.push_back({nums[0]});
+            return rst;
+        }
+
+        for (int i = 0; i < nums.size(); i++) {
+            vector<int> subNums = nums;
+            subNums.erase(subNums.begin() + i);
+            vector<vector<int>> subRst = permute(subNums);
+            for (int j = 0; j < subRst.size(); j++) {
+                rst.push_back(subRst[j]);
+                rst[i * subRst.size() + j].insert(rst[i * subRst.size() + j].begin() + 0, nums[i]);
+            }
         }
         
         return rst;
