@@ -169,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0071-simplify-path](https://github.com/hackingworm/LeetCodeProblems/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/hackingworm/LeetCodeProblems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0227-basic-calculator-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0227-basic-calculator-ii) |
+| [0232-implement-queue-using-stacks](https://github.com/hackingworm/LeetCodeProblems/tree/master/0232-implement-queue-using-stacks) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/hackingworm/LeetCodeProblems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/hackingworm/LeetCodeProblems/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -272,6 +273,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/hackingworm/LeetCodeProblems/tree/master/0146-lru-cache) |
+| [0232-implement-queue-using-stacks](https://github.com/hackingworm/LeetCodeProblems/tree/master/0232-implement-queue-using-stacks) |
 | [0346-moving-average-from-data-stream](https://github.com/hackingworm/LeetCodeProblems/tree/master/0346-moving-average-from-data-stream) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/hackingworm/LeetCodeProblems/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Matrix
@@ -306,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/hackingworm/LeetCodeProblems/tree/master/0232-implement-queue-using-stacks) |
 | [0346-moving-average-from-data-stream](https://github.com/hackingworm/LeetCodeProblems/tree/master/0346-moving-average-from-data-stream) |
 ## Data Stream
 |  |
