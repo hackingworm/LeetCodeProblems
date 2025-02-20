@@ -1,38 +1,18 @@
 class MyQueue {
 public:
     stack<int> stacka, stackb;
-    enum Op {Push, Pop};
-    Op preOp;
-
-    MyQueue() {
-        preOp = Push;
-    }
-    
-    void swap(stack<int>& src, stack<int>& dst) {
-        while (!dst.empty()) {
-            dst.pop();
-        }
-
-        while (!src.empty()) {
-            int e = src.top();
-            src.pop();
-            dst.push(e);
-        }
-    }
 
     void push(int x) {
-        if (Pop == preOp) {
-            swap(stackb, stacka);
-            preOp = Push;
-        }
-
         stacka.push(x);
     }
     
     int pop() {
-        if (Push == preOp) {
-            swap(stacka, stackb);
-            preOp = Pop;
+        if (stackb.empty()) {
+            while (!stacka.empty()) {
+                int e = stacka.top();
+                stacka.pop();
+                stackb.push(e);
+            }
         }
 
         int e = stackb.top();
@@ -41,16 +21,19 @@ public:
     }
     
     int peek() {
-        if (Push == preOp) {
-            swap(stacka, stackb);
-            preOp = Pop;
+        if (stackb.empty()) {
+            while (!stacka.empty()) {
+                int e = stacka.top();
+                stacka.pop();
+                stackb.push(e);
+            }
         }
 
         return stackb.top();
     }
     
     bool empty() {
-        return Push == preOp? stacka.empty(): stackb.empty();
+        return stacka.empty() && stackb.empty();
     }
 };
 
