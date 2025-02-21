@@ -46,19 +46,20 @@ public:
         vector<int> results;
         for (int i = 0; i < amount; i++) {
             int rst = -1;
-            for (int j = 0; j < coins.size() && (i + 1) >= coins[j]; j++) {
-                int tmp = i + 1 - coins[j];
-                if (0 < tmp) {
+            for (auto coin: coins) {
+            // for (int j = 0; j < coins.size() && (i + 1) >= coins[j]; j++) {
+                int tmp = i + 1 - coin /* coins[j] */;
+                if (0 == tmp) {
+                    tmp = 1;
+                } else if (0 < tmp) {
                     if (-1 == results[tmp - 1]) {
                         tmp = -1;
                     } else {
                         tmp = results[tmp - 1] + 1;
                     }
-                } else {
-                    tmp = 1;
                 }
 
-                if (-1 != tmp && (-1 == rst || rst > tmp)) {
+                if (0 < tmp && (-1 == rst || rst > tmp)) {
                     rst = tmp;
                 }
             }
