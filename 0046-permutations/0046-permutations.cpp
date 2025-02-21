@@ -1,11 +1,11 @@
-#define RESTRICT_ORDER
+#define STRICT_ORDER
 
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> rst;
 
-        #if !defined(RESTRICT_ORDER)
+        #if !defined(STRICT_ORDER)
         if (0 == nums.size()) {
             return rst;
         }
