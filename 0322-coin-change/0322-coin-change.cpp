@@ -2,12 +2,11 @@
 
 class Solution {
     #if defined(DP)
-    // vector<int> coins;
     int* results;
 
-    void /*int*/ coinChangeInner(vector<int>& coins, int amount) {
+    void coinChangeInner(vector<int>& coins, int amount) {
         if (0 != results[amount- 1]) {
-            return /* results[amount - 1] */;
+            return;
         }
 
         int least = -1;
@@ -30,7 +29,7 @@ class Solution {
             }
         }
 
-        /* return*/ results[amount - 1] = least;
+        results[amount - 1] = least;
     }
     #endif
 
@@ -43,8 +42,6 @@ public:
         sort(coins.begin(), coins.end());
 
         #if defined(DP)
-        // this->coins = coins;
-
         results = new int[amount];
         for (int i = 0; i < amount; i++) {
             results[i] = 0;
