@@ -1,4 +1,4 @@
-#define DP
+// #define DP
 
 class Solution {
     #if defined(DP)
