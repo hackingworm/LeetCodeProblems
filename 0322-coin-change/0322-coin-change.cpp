@@ -68,6 +68,6 @@ public:
 
         int rst = results[amount - 1];
         delete[] results;
-        return rst /* results[results.size() - 1] */;
+        return rst;
     }
 };
