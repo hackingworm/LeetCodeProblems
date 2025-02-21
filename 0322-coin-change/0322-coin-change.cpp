@@ -1,7 +1,10 @@
-class Solution {
-    // vector<int> coins;
+#define DP
 
-public:
+class Solution {
+    #if defined(DP)
+    vector<int> coins;
+    int* results;
+
     /*
     int coinChange(int length, int amount) {
         int last = coins[length - 1];
@@ -35,15 +38,53 @@ public:
     }
     */
 
+    int coinChange(int amount) {
+        if (0 != results[amount- 1]) {
+            return results[amount - 1];
+        }
+
+        int least = -1;
+        for (auto coin: coins) {
+            int rst = amount - coin;
+            if (0 == rst) {
+                return results[amount - 1] = 1;
+            }
+
+            if (0 < rst) {
+                rst = coinChange(rst);
+                if (0 < rst) {
+                    rst++;
+                    if (-1 == least || least > rst) {
+                        least = rst;
+                    }
+                }
+            }
+        }
+
+        return results[amount - 1] = least;
+    }
+    #endif
+
+public:
     int coinChange(vector<int>& coins, int amount) {
         if (0 == amount) {
             return 0;
         }
 
         sort(coins.begin(), coins.end());
-        // this->coins = coins;
-        // return coinChange(coins.size(), amount);
-        int *results = new int[amount];
+
+        #if defined(DP)
+        this->coins = coins;
+
+        results = new int[amount];
+        for (int i = 0; i < amount; i++) {
+            results[i] = 0;
+        }
+
+        coinChange(amount);
+        #else
+
+        int* results = new int[amount];
         for (int i = 0; i < amount; i++) {
             int rst = -1;
             for (auto coin: coins) {
@@ -65,6 +106,7 @@ public:
 
             results[i] = rst;
         }
+        #endif
 
         int rst = results[amount - 1];
         delete[] results;
