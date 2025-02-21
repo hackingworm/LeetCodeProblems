@@ -43,12 +43,11 @@ public:
         sort(coins.begin(), coins.end());
         // this->coins = coins;
         // return coinChange(coins.size(), amount);
-        vector<int> results;
+        int *results = new int[amount];
         for (int i = 0; i < amount; i++) {
             int rst = -1;
             for (auto coin: coins) {
-            // for (int j = 0; j < coins.size() && (i + 1) >= coins[j]; j++) {
-                int tmp = i + 1 - coin /* coins[j] */;
+                int tmp = i + 1 - coin;
                 if (0 == tmp) {
                     tmp = 1;
                 } else if (0 < tmp) {
@@ -64,9 +63,11 @@ public:
                 }
             }
 
-            results.push_back(rst);
+            results[i] = rst;
         }
 
-        return results[results.size() - 1];
+        int rst = results[amount - 1];
+        delete[] results;
+        return rst /* results[results.size() - 1] */;
     }
 };
