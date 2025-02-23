@@ -1,5 +1,5 @@
 class Trie {
-    unordered_map<char, Trie*> charMap;
+    vector<Trie*> charMap = vector<Trie*>('z' - 'a' + 2, NULL);
 
 public:
     Trie() {
@@ -9,37 +9,40 @@ public:
     void insert(string word) {
         Trie* node = this;
         for (auto c: word) {
-            if (!node->charMap.contains(c)) {
-                node->charMap[c] = new Trie();
+            int idx = c - 'a';
+            if (NULL == node->charMap[idx]) {
+                node->charMap[idx] = new Trie();
             }
 
-            node = node->charMap[c];
+            node = node->charMap[idx];
         }
-        
-        node->charMap['.'] = NULL; 
+
+        node->charMap['z' - 'a' + 1] = this; 
     }
     
     bool search(string word) {
         Trie* node = this;
         for (auto c: word) {
-            if (!node->charMap.contains(c)) {
+            int idx = c - 'a';
+            if (NULL == node->charMap[idx]) {
                 return false;
             }
 
-            node = node->charMap[c];
+            node = node->charMap[idx];
         }
 
-        return node->charMap.contains('.');
+        return this == node->charMap['z' - 'a' + 1];
     }
     
     bool startsWith(string prefix) {
         Trie* node = this;
         for (auto c: prefix) {
-            if (!node->charMap.contains(c)) {
+            int idx = c - 'a';
+            if (NULL == node->charMap[idx]) {
                 return false;
             }
 
-            node = node->charMap[c];
+            node = node->charMap[idx];
         }
 
         return true;
