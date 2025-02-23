@@ -17,6 +17,7 @@ public:
             node = node->charMap[idx];
         }
 
+        // Use a specifie value to indicate a word ended here.  
         node->charMap['z' - 'a' + 1] = this; 
     }
     
