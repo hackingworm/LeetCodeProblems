@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hackingworm/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0162-find-peak-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0162-find-peak-element) |
+| [0169-majority-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/hackingworm/LeetCodeProblems/tree/master/0238-product-of-array-except-self) |
@@ -47,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/hackingworm/LeetCodeProblems/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/hackingworm/LeetCodeProblems/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/hackingworm/LeetCodeProblems/tree/master/0146-lru-cache) |
+| [0169-majority-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0208-implement-trie-prefix-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
@@ -97,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/hackingworm/LeetCodeProblems/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/hackingworm/LeetCodeProblems/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/hackingworm/LeetCodeProblems/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
@@ -144,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/hackingworm/LeetCodeProblems/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/hackingworm/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/hackingworm/LeetCodeProblems/tree/master/0295-find-median-from-data-stream) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -171,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 ## Stack
 |  |
