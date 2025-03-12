@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
 | [0807-custom-sort-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0807-custom-sort-string) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/hackingworm/LeetCodeProblems/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## String
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/hackingworm/LeetCodeProblems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1178-valid-palindrome-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1178-valid-palindrome-iii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/hackingworm/LeetCodeProblems/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Sliding Window
 |  |
 | ------- |
@@ -86,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0076-minimum-window-substring) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Binary Search
 |  |
 | ------- |
