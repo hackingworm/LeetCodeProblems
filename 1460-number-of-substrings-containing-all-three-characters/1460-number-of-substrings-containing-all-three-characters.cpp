@@ -1,4 +1,4 @@
-#define ORIGIMPL 1
+#define ORIGIMPL 0
 
 class Solution {
 public:
