@@ -239,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/hackingworm/LeetCodeProblems/tree/master/0207-course-schedule) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0261-graph-valid-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0261-graph-valid-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0339-nested-list-weight-sum) |
@@ -254,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/hackingworm/LeetCodeProblems/tree/master/0207-course-schedule) |
+| [0261-graph-valid-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0261-graph-valid-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0322-coin-change](https://github.com/hackingworm/LeetCodeProblems/tree/master/0322-coin-change) |
 | [0339-nested-list-weight-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0339-nested-list-weight-sum) |
@@ -316,6 +318,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
+| [0261-graph-valid-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0261-graph-valid-tree) |
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
 ## Linked List
 |  |
@@ -362,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0133-clone-graph](https://github.com/hackingworm/LeetCodeProblems/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/hackingworm/LeetCodeProblems/tree/master/0207-course-schedule) |
+| [0261-graph-valid-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0261-graph-valid-tree) |
 ## Topological Sort
 |  |
 | ------- |
