@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/hackingworm/LeetCodeProblems/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1909-buildings-with-an-ocean-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/1909-buildings-with-an-ocean-view) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hackingworm/LeetCodeProblems/tree/master/2265-partition-array-according-to-given-pivot) |
+| [3643-zero-array-transformation-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/3643-zero-array-transformation-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
+| [3643-zero-array-transformation-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/3643-zero-array-transformation-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -302,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/hackingworm/LeetCodeProblems/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
+| [3643-zero-array-transformation-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/3643-zero-array-transformation-ii) |
 ## Design
 |  |
 | ------- |
