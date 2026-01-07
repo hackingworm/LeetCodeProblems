@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0162-find-peak-element) |
+| [0222-count-complete-tree-nodes](https://github.com/hackingworm/LeetCodeProblems/tree/master/0222-count-complete-tree-nodes) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
@@ -229,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0129-sum-root-to-leaf-numbers](https://github.com/hackingworm/LeetCodeProblems/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0173-binary-search-tree-iterator](https://github.com/hackingworm/LeetCodeProblems/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/hackingworm/LeetCodeProblems/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -280,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0129-sum-root-to-leaf-numbers](https://github.com/hackingworm/LeetCodeProblems/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0173-binary-search-tree-iterator](https://github.com/hackingworm/LeetCodeProblems/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/hackingworm/LeetCodeProblems/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -400,4 +403,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0948-sort-an-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0222-count-complete-tree-nodes](https://github.com/hackingworm/LeetCodeProblems/tree/master/0222-count-complete-tree-nodes) |
 <!---LeetCode Topics End-->
