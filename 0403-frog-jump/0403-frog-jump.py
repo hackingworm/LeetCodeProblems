@@ -3,8 +3,8 @@ class Solution:
         if 1 != stones[1]:
             return False
         
-        self.stones = stones
         self.results = {}
+        self.stones = stones
         return self.canCrossWithStep(1, 1)
     
     def canCrossWithStep(self, index: int, step: int) -> bool:
@@ -32,6 +32,5 @@ class Solution:
 
             i += 1
 
-        self.results[(index, step)] = False
-        
+        self.results[(index, step)] = False  
         return False
