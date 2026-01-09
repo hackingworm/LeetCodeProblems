@@ -5,26 +5,25 @@ class Solution:
         
         self.stones = stones
         self.results = {}
-        #print("Here", self.results)
         return self.canCrossWithStep(1, 1)
     
     def canCrossWithStep(self, index: int, step: int) -> bool:
-        #print(index, step, self.stones[index])
         if len(self.stones) == index + 1:
             return True
 
-        #print(index, step, self.results)
         if self.results.get((index, step)) == False:
-            #print(index, step)
             return False
 
         forward = 1
         i = - 1
         while i < 2:
+            if len(self.stones) == index + forward:
+                break
+
             if self.stones[index + forward] < self.stones[index] + step + i:
                 forward += 1
-                if len(self.stones) == index + forward:
-                    return False
+                #if len(self.stones) == index + forward:
+                #    return False
                 
                 continue
 
@@ -32,15 +31,14 @@ class Solution:
                 if self.canCrossWithStep(index + forward, step + i):
                     return True
 
-                #print("Before", self.results.get((index + forward, step + i)))
-                self.results[(index + forward, step + i)] = False
-                #print("After", self.results.get((index + forward, step + i)))
+                #self.results[(index + forward, step + i)] = False
 
                 forward += 1
-                if len(self.stones) == index + forward:
-                    return False
+                #if len(self.stones) == index + forward:
+                #    return False
 
             i += 1
 
         #print(index, step)
+        self.results[(index, step)] = False
         return False
