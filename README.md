@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0403-frog-jump](https://github.com/hackingworm/LeetCodeProblems/tree/master/0403-frog-jump) |
 | [0542-01-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/0542-01-matrix) |
 | [1178-valid-palindrome-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1178-valid-palindrome-iii) |
+| [1220-count-vowels-permutation](https://github.com/hackingworm/LeetCodeProblems/tree/master/1220-count-vowels-permutation) |
 ## Math
 |  |
 | ------- |
