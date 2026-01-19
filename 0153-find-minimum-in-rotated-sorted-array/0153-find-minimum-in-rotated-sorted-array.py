@@ -10,5 +10,3 @@ class Solution:
                 end = middle
 
         return nums[begin]
-
-        
