@@ -8,10 +8,7 @@ class Solution:
                 while begin < end and value == nums[begin + 1]:
                     begin += 1
                 
-                if begin == end:
-                    break
-
-                while value == nums[end - 1]:
+                while begin < end and value == nums[end - 1]:
                     end -= 1
 
                 if begin == end:
