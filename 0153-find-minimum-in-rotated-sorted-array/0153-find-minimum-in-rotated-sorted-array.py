@@ -4,9 +4,9 @@ class Solution:
         end = len(nums) - 1
         while begin < end and nums[begin] > nums[end]:
             middle = (begin + end) // 2
-            if nums[begin] <= nums[middle]:
-                begin = middle + 1
-            else:
+            if nums[begin] > nums[middle]:
                 end = middle
+            else:
+                begin = middle + 1
 
         return nums[begin]
