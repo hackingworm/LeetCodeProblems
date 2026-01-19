@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1028-interval-list-intersections](https://github.com/hackingworm/LeetCodeProblems/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/hackingworm/LeetCodeProblems/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/hackingworm/LeetCodeProblems/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1909-buildings-with-an-ocean-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/1909-buildings-with-an-ocean-view) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hackingworm/LeetCodeProblems/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/hackingworm/LeetCodeProblems/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [3643-zero-array-transformation-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/3643-zero-array-transformation-ii) |
 ## Divide and Conquer
 |  |
@@ -147,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/0542-01-matrix) |
 | [1178-valid-palindrome-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1178-valid-palindrome-iii) |
 | [1220-count-vowels-permutation](https://github.com/hackingworm/LeetCodeProblems/tree/master/1220-count-vowels-permutation) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/hackingworm/LeetCodeProblems/tree/master/1235-maximum-profit-in-job-scheduling) |
 ## Math
 |  |
 | ------- |
@@ -174,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0807-custom-sort-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0807-custom-sort-string) |
 | [0948-sort-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/hackingworm/LeetCodeProblems/tree/master/1235-maximum-profit-in-job-scheduling) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
