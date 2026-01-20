@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0163-missing-ranges](https://github.com/hackingworm/LeetCodeProblems/tree/master/0163-missing-ranges) |
 | [0169-majority-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/hackingworm/LeetCodeProblems/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/hackingworm/LeetCodeProblems/tree/master/0322-coin-change) |
@@ -93,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0076-minimum-window-substring) |
+| [0209-minimum-size-subarray-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0209-minimum-size-subarray-sum) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -104,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/hackingworm/LeetCodeProblems/tree/master/0162-find-peak-element) |
+| [0209-minimum-size-subarray-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/hackingworm/LeetCodeProblems/tree/master/0222-count-complete-tree-nodes) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
@@ -317,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/hackingworm/LeetCodeProblems/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/hackingworm/LeetCodeProblems/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
