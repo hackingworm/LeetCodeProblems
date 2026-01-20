@@ -8,16 +8,12 @@ class Solution:
             if target > sum:
                 continue
             
-            #print("b:", begin, "e:", end)
             while sum >= target + nums[begin]:
                 sum -= nums[begin]
                 begin += 1
 
-            #print("b:", begin)
-            #print("min:", min)
             if min > end - begin + 1:
                 min = end - begin + 1
-            #print("min:", min)
 
         if len(nums) + 1 == min:
             min = 0
