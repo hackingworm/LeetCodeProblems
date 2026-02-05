@@ -423,4 +423,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/hackingworm/LeetCodeProblems/tree/master/0222-count-complete-tree-nodes) |
+## Graph Theory
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/hackingworm/LeetCodeProblems/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
