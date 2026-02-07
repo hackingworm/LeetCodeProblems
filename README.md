@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/hackingworm/LeetCodeProblems/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/hackingworm/LeetCodeProblems/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/hackingworm/LeetCodeProblems/tree/master/0057-insert-interval) |
+| [0068-text-justification](https://github.com/hackingworm/LeetCodeProblems/tree/master/0068-text-justification) |
 | [0075-sort-colors](https://github.com/hackingworm/LeetCodeProblems/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/hackingworm/LeetCodeProblems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0088-merge-sorted-array) |
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/hackingworm/LeetCodeProblems/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hackingworm/LeetCodeProblems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0065-valid-number](https://github.com/hackingworm/LeetCodeProblems/tree/master/0065-valid-number) |
+| [0068-text-justification](https://github.com/hackingworm/LeetCodeProblems/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/hackingworm/LeetCodeProblems/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/hackingworm/LeetCodeProblems/tree/master/0125-valid-palindrome) |
@@ -406,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/hackingworm/LeetCodeProblems/tree/master/0068-text-justification) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/hackingworm/LeetCodeProblems/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Iterator
 |  |
