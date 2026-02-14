@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/hackingworm/LeetCodeProblems/tree/master/0238-product-of-array-except-self) |
+| [0300-longest-increasing-subsequence](https://github.com/hackingworm/LeetCodeProblems/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/hackingworm/LeetCodeProblems/tree/master/0322-coin-change) |
 | [0346-moving-average-from-data-stream](https://github.com/hackingworm/LeetCodeProblems/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
@@ -113,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/hackingworm/LeetCodeProblems/tree/master/0222-count-complete-tree-nodes) |
 | [0270-closest-binary-search-tree-value](https://github.com/hackingworm/LeetCodeProblems/tree/master/0270-closest-binary-search-tree-value) |
+| [0300-longest-increasing-subsequence](https://github.com/hackingworm/LeetCodeProblems/tree/master/0300-longest-increasing-subsequence) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/hackingworm/LeetCodeProblems/tree/master/1235-maximum-profit-in-job-scheduling) |
@@ -151,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/hackingworm/LeetCodeProblems/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/hackingworm/LeetCodeProblems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0300-longest-increasing-subsequence](https://github.com/hackingworm/LeetCodeProblems/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/hackingworm/LeetCodeProblems/tree/master/0322-coin-change) |
 | [0403-frog-jump](https://github.com/hackingworm/LeetCodeProblems/tree/master/0403-frog-jump) |
 | [0542-01-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/0542-01-matrix) |
