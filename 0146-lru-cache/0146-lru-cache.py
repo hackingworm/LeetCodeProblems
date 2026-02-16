@@ -8,18 +8,6 @@ class LRUCache:
         self.head = None
         self.map = {}
 
-    def printNodes(self) -> None:
-        if None == self.head:
-            return
-
-        print("Linked nodes")
-        node = self.head
-        while True:
-            print(node.key, node.value)
-            node = node.next
-            if self.head == node:
-                break
-
     def move2end(self, node: Node) -> None:
         if self.head == node:
             self.head = self.head.next
@@ -39,7 +27,6 @@ class LRUCache:
             return -1
 
         self.move2end(node)
-        #self.printNodes()
         return node.value
 
     def put(self, key: int, value: int) -> None:
@@ -66,7 +53,6 @@ class LRUCache:
             self.move2end(node)
 
         node.value = value
-        #self.printNodes()
         
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
