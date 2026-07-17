@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
 | [0948-sort-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0948-sort-an-array) |
+| [0994-rotting-oranges](https://github.com/hackingworm/LeetCodeProblems/tree/master/0994-rotting-oranges) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
 | [1028-interval-list-intersections](https://github.com/hackingworm/LeetCodeProblems/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/hackingworm/LeetCodeProblems/tree/master/1046-max-consecutive-ones-iii) |
@@ -292,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0994-rotting-oranges](https://github.com/hackingworm/LeetCodeProblems/tree/master/0994-rotting-oranges) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Binary Tree
@@ -349,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
+| [0994-rotting-oranges](https://github.com/hackingworm/LeetCodeProblems/tree/master/0994-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Union Find
 |  |
