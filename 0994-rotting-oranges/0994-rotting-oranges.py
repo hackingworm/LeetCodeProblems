@@ -6,7 +6,7 @@ class Solution:
             rottens.add((i, j))
 
     def orangesRotting(self, grid: List[List[int]]) -> int:
-        # Construct initial "freshes" set and "rottens" set
+        # Construct initial sets of "freshes" and "rottens"
         freshes = set()
         rottens = set()
         for i in range(len(grid)):
@@ -38,7 +38,7 @@ class Solution:
             # Set "rottens" to "newRottens" for the nexe round
             rottens = newRottens
 
-        # If still any fresh remained
+        # If still any fresh left
         if freshes:
             return -1
 
