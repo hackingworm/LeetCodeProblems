@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0403-frog-jump](https://github.com/hackingworm/LeetCodeProblems/tree/master/0403-frog-jump) |
 | [0542-01-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/hackingworm/LeetCodeProblems/tree/master/0560-subarray-sum-equals-k) |
+| [0721-accounts-merge](https://github.com/hackingworm/LeetCodeProblems/tree/master/0721-accounts-merge) |
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
 | [0912-random-pick-with-weight](https://github.com/hackingworm/LeetCodeProblems/tree/master/0912-random-pick-with-weight) |
 | [0948-sort-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0948-sort-an-array) |
@@ -68,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/hackingworm/LeetCodeProblems/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
+| [0721-accounts-merge](https://github.com/hackingworm/LeetCodeProblems/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0807-custom-sort-string) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -89,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0227-basic-calculator-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0227-basic-calculator-ii) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0680-valid-palindrome-ii) |
+| [0721-accounts-merge](https://github.com/hackingworm/LeetCodeProblems/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0807-custom-sort-string) |
 | [0851-goat-latin](https://github.com/hackingworm/LeetCodeProblems/tree/master/0851-goat-latin) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/hackingworm/LeetCodeProblems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -185,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/hackingworm/LeetCodeProblems/tree/master/0295-find-median-from-data-stream) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/hackingworm/LeetCodeProblems/tree/master/0347-top-k-frequent-elements) |
+| [0721-accounts-merge](https://github.com/hackingworm/LeetCodeProblems/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0807-custom-sort-string) |
 | [0948-sort-an-array](https://github.com/hackingworm/LeetCodeProblems/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/hackingworm/LeetCodeProblems/tree/master/1014-k-closest-points-to-origin) |
@@ -275,6 +279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0314-binary-tree-vertical-order-traversal](https://github.com/hackingworm/LeetCodeProblems/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0339-nested-list-weight-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0543-diameter-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/hackingworm/LeetCodeProblems/tree/master/0721-accounts-merge) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/hackingworm/LeetCodeProblems/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -291,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/hackingworm/LeetCodeProblems/tree/master/0322-coin-change) |
 | [0339-nested-list-weight-sum](https://github.com/hackingworm/LeetCodeProblems/tree/master/0339-nested-list-weight-sum) |
 | [0542-01-matrix](https://github.com/hackingworm/LeetCodeProblems/tree/master/0542-01-matrix) |
+| [0721-accounts-merge](https://github.com/hackingworm/LeetCodeProblems/tree/master/0721-accounts-merge) |
 | [0854-making-a-large-island](https://github.com/hackingworm/LeetCodeProblems/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/hackingworm/LeetCodeProblems/tree/master/0994-rotting-oranges) |
@@ -436,4 +442,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/hackingworm/LeetCodeProblems/tree/master/0207-course-schedule) |
+## Union-Find
+|  |
+| ------- |
+| [0721-accounts-merge](https://github.com/hackingworm/LeetCodeProblems/tree/master/0721-accounts-merge) |
 <!---LeetCode Topics End-->
