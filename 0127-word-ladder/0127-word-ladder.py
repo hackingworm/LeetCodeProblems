@@ -12,12 +12,6 @@ class Solution:
         return diffFound
 
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
-        #if endWord != wordList[-1]:
-        #    return 0
-    
-        #if beginWord in wordList:
-        #    wordList.remove(beginWord)
-
         currents = {beginWord}
         level = 1
 
@@ -31,11 +25,8 @@ class Solution:
 
                         nexts.add(word)
 
-            #print(level, nexts, wordList)
             for next in nexts:
                 wordList.remove(next)
-
-            #print(level, nexts, wordList)
 
             currents = nexts
             level += 1
