@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/hackingworm/LeetCodeProblems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hackingworm/LeetCodeProblems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0076-minimum-window-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0076-minimum-window-substring) |
+| [0127-word-ladder](https://github.com/hackingworm/LeetCodeProblems/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/hackingworm/LeetCodeProblems/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/hackingworm/LeetCodeProblems/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/hackingworm/LeetCodeProblems/tree/master/0146-lru-cache) |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0071-simplify-path](https://github.com/hackingworm/LeetCodeProblems/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/hackingworm/LeetCodeProblems/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/hackingworm/LeetCodeProblems/tree/master/0125-valid-palindrome) |
+| [0127-word-ladder](https://github.com/hackingworm/LeetCodeProblems/tree/master/0127-word-ladder) |
 | [0208-implement-trie-prefix-tree](https://github.com/hackingworm/LeetCodeProblems/tree/master/0208-implement-trie-prefix-tree) |
 | [0227-basic-calculator-ii](https://github.com/hackingworm/LeetCodeProblems/tree/master/0227-basic-calculator-ii) |
 | [0567-permutation-in-string](https://github.com/hackingworm/LeetCodeProblems/tree/master/0567-permutation-in-string) |
@@ -287,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/hackingworm/LeetCodeProblems/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/hackingworm/LeetCodeProblems/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/hackingworm/LeetCodeProblems/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/hackingworm/LeetCodeProblems/tree/master/0200-number-of-islands) |
@@ -446,4 +449,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/hackingworm/LeetCodeProblems/tree/master/0721-accounts-merge) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/hackingworm/LeetCodeProblems/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
