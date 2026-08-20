@@ -19,12 +19,12 @@ class Solution:
                 connection[edge[1]] = [edge[0]]
 
         while True:
-            rootMaybe = None
             leaves = []
             for number, neighbors in connection.items():
                 if 1 == len(neighbors):
                     leaves.append(number)
 
+            rootMaybe = None
             for leaf in leaves:                
                 rootMaybe = connection[leaf][0]
                 connection[rootMaybe].remove(leaf)
@@ -42,42 +42,3 @@ class Solution:
 
             if 0 == len(connection):
                 return [rootMaybe] 
-
-        '''
-        minHeight = n
-        trees = set()
-
-        for i in range(n):
-            height = 0
-            visited = [False] * n
-            visited[i] = True
-            currents = set()
-            currents.add(i)
-            count = 1
-            while n > count and minHeight > height:
-                nexts = set()
-                for current in currents:
-                    for j in map[current]:
-                        if not visited[j]:
-                            nexts.add(j)
-                            visited[j] = True
-                            count += 1
-
-                #print(i, currents, nexts)
-
-                currents = nexts
-                height += 1
-
-            #print(i, height)
-
-            if n > count:
-                continue
-
-            if minHeight > height:
-                minHeight = height
-                trees = set()
-
-            trees.add(i)
-        
-        return list(trees)
-        '''
