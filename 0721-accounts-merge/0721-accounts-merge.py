@@ -15,11 +15,8 @@ class Solution:
             else:
                 accounts[i][1:] = list(emailsA)
 
-        #print(accounts)
         for i in range(len(accounts)):
-            #print(accounts[i][1:])
             accounts[i][1:] = sorted(accounts[i][1:])
-            #print(accounts[i][1:])
 
         return accounts
 
