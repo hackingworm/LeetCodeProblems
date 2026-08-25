@@ -1,5 +1,29 @@
 class Solution:
     def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
+        for i in range(len(accounts) - 1, -1, -1):
+            merged = False
+            emailsA = set(accounts[i][1:])
+            for j in range(i - 1, -1, -1):
+                emailsB = set(accounts[j][1:])
+                if accounts[i][0] == accounts[j][0] and not emailsA.isdisjoint(emailsB):
+                    accounts[j][1:] = list(emailsB.union(emailsA))
+                    merged = True
+                    break
+
+            if merged:
+                del accounts[i]
+            else:
+                accounts[i][1:] = list(emailsA)
+
+        #print(accounts)
+        for i in range(len(accounts)):
+            #print(accounts[i][1:])
+            accounts[i][1:] = sorted(accounts[i][1:])
+            #print(accounts[i][1:])
+
+        return accounts
+
+        '''
         for i in range(len(accounts)):
             current = accounts[i]
             for j in range(0, i):
@@ -19,3 +43,4 @@ class Solution:
                 sortedAccts.append(account)
 
         return sortedAccts
+        '''
