@@ -15,7 +15,6 @@ class Solution:
             current.left = TreeNode(preorder[i])
             current = current.left
             i += 1
-        #print("i ", i)
 
         if len(preorder) == i:
             return root
@@ -23,8 +22,7 @@ class Solution:
         j = 0
         while preorder[i] != postorder[j]:
             j += 1  
-        #print("j ", j)
-        #print(preorder[i: i + j + 1], preorder[i + j + 1:], postorder[:j + 1], postorder[j + 1: len(postorder) - i])
+
         current.left = self.constructFromPrePost(preorder[i: i + j + 1], postorder[:j + 1])
         current.right = self.constructFromPrePost(preorder[i + j + 1:], postorder[j + 1: len(postorder) - i])
 
